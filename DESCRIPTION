@@ -1,0 +1,21 @@
+Package: r4es
+Title: R for Environmental Science 
+Version: 0.0.0.9000
+Authors@R: person("Cory", "Sauve", email = "coryjsauve@gmail.com",
+                  role = c("aut", "cre"))
+Description: r4es contains code tutorials for using R in environmental science.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
+Imports: 
+    patchwork,
+    ggplot2,
+    stats
