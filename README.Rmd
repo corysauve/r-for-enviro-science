@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-r4es contains code tutorials on using R to work with environmental data. This package is a precursor to an eventual textbook. All example data and functions are installed along with the package and all tutorials are in the form of **vignettes**.
+r4es contains code tutorials on using R for working with environmental data. These tutorials are the first steps to the eventual book, [R for Environmental Science](https://github.com/corysauve/r4es-book). 
 
 ## Installation
 
@@ -29,8 +29,9 @@ You can install the development version from [GitHub](https://github.com/) with:
 devtools::install_github("corysauve/r4es")
 ```
 
-## How to access tutorials 
+## Available tutorials 
 
+All tutorials and datasets are included when r4es is installed. They are also found under **
 ```{r example}
 library(r4es)
 ## basic example code

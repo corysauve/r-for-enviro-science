@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 inst/doc
+r4es.Rcheck/
+r4es*.tar.gz
+r4es*.tgz

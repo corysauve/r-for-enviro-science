@@ -6,3 +6,6 @@
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
+^r4es\.Rcheck$
+^r4es.*\.tar\.gz$
+^r4es.*\.tgz$

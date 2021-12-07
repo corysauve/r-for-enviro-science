@@ -89,7 +89,7 @@ ggplot(data = university_lake,
        aes(x = temp_c, y = depth)) + 
   geom_point() +
   geom_path() + 
-  scale_y_reverse(name = "Depth (m)") +
+  scale_y_reverse() +
   labs(x = "Temperature (°C)", 
        y = "Depth (m)") 
 ```
@@ -102,7 +102,7 @@ ggplot(data = university_lake,
        aes(x = temp_c, y = depth)) + 
   geom_point() +
   geom_path() + 
-  scale_y_reverse(name = "Depth (m)") +
+  scale_y_reverse() +
   labs(x = "Temperature (°C)", 
        y = "Depth (m)", 
        title = "Temperature Profile", 
@@ -118,7 +118,7 @@ ggplot(data = university_lake,
        aes(x = temp_c, y = depth)) + 
   geom_point(size = 1.5) +
   geom_path(size = 1) + 
-  scale_y_reverse(name = "Depth (m)") +
+  scale_y_reverse() +
   labs(x = "Temperature (°C)", 
        y = "Depth (m)",
        caption = "Fig 1: Temperature profile for University Lake, Bloomington, IN") +
@@ -135,7 +135,7 @@ p <- ggplot(data = university_lake,
        aes(x = temp_c, y = depth)) + 
   geom_point() +
   geom_path() + 
-  scale_y_reverse(name = "Depth (m)") +
+  scale_y_reverse() +
   labs(x = "Temperature (°C)", 
        y = "Depth (m)") 
 
@@ -159,7 +159,7 @@ ggplot(data = university_lake,
        aes(x = temp_c, y = depth)) + 
   geom_point() +
   geom_path() + 
-  scale_y_reverse(name = "Depth (m)") +
+  scale_y_reverse() +
   labs(x = "Temperature (°C)", 
        y = "Depth (m)", 
        caption = "Fig 1: Temperature profile for University Lake, Bloomington, IN") +
