@@ -1,4 +1,4 @@
-#' Lake Profile
+#' University Lake profile data
 #'
 #' A dataset containing profile data from a Midwestern reservoir
 #'
@@ -8,4 +8,4 @@
 #' \code{chla_ugl}, \code{olichospermum_nul}, \code{aphanizomenon_nul}, \code{microcystis_nul}, \code{ceratium_nul},
 #' \code{nauplii_nul}, \code{bosmina_nul}, \code{calanoid_nul}, \code{cyclopoid_nul}, \code{chaoborus_nul},
 #' \code{orgn_mgl}, and \code{light_level_per}.
-"lake_profile"
+"university_lake"

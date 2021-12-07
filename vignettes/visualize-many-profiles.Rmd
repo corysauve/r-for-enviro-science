@@ -14,11 +14,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
-library(tidyverse)
-#library(r4es)
-```
-
 ## Overview
 
 For this post, we're going to build off of the *Visualizing Lake Profiles* and learn how to make subplots with `patchwork`. We'll also add some annotations to the final plots.
@@ -27,8 +22,7 @@ For this post, we're going to build off of the *Visualizing Lake Profiles* and l
 
 Last time, we made a temperature profile using ggplot2:
 ```{r temp-profile, fig.width=4, fig.height=4}
-devtools::load_all()
-
+library(r4es)
 library(ggplot2)
 
 ggplot(data = university_lake,  
@@ -49,7 +43,6 @@ This time we'll visualize additional parameters and compose them together into o
 
 Let's first remind ourselves what the data look like: 
 ```{r}
-library(r4es)
 dplyr::glimpse(university_lake)
 ```
 
@@ -180,20 +173,3 @@ plot &
         plot.caption = element_text(hjust = 0, vjust = -1, size = 14), 
         plot.margin = unit(c(1, 1, 1.5, 1), "cm"))
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

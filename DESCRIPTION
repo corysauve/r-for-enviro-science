@@ -18,4 +18,6 @@ Depends:
 Imports: 
     patchwork,
     ggplot2,
-    stats
+    stats,
+    magrittr,
+    dplyr

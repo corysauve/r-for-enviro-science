@@ -22,6 +22,7 @@ In this post, we're going to cover how to visualize lake profiles using `ggplot2
 
 It's always a good idea to take a look at the data before we try to plot anything: 
 ```{r glimpse}
+library(r4es)
 dplyr::glimpse(university_lake)
 ```
 
@@ -33,7 +34,6 @@ dplyr::glimpse(university_lake)
 
 We'll start with a simple figure by making creating a temperature profile. When making any figure with `ggplot2` the first step is to call `ggplot()` and map our data: 
 ```{r ggplot}
-library(r4es)
 library(ggplot2)
 
 ggplot(data = university_lake)
@@ -174,20 +174,3 @@ We did it! We know how have a high-quality temperature profile. If you want to s
 ```{r save, eval=FALSE}
 ggsave(last_plot(), filename = "path/to/save/figure.png", height = 8, width = 12, dpi = 500)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
